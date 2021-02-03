@@ -4,7 +4,7 @@ from collections import Counter
 
 
 def getdata():
-    datafile = pd.read_csv("SPAM text message 20170820 - Data.csv")
+    datafile = pd.read_csv("SPAMorNOT.csv")
     # trainlabel = datafile
     # print(datafile.values)
     total = datafile.to_numpy()
